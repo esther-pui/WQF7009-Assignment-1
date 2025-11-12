@@ -22,6 +22,6 @@ for col in columns:
     plt.show()
 
 # %% Show preprocessed dataframe
-# data_loader.preprocess_data()
-# data_loader.data.head()
+data_loader.preprocess_data()
+data_loader.data.head()
 
