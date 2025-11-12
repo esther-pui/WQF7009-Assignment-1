@@ -7,9 +7,6 @@ data_loader = DataLoader()
 data_loader.load_dataset()
 data = data_loader.data
 
-# data cleaning
-data['bmi'].fillna(data['bmi'].median(), inplace=True)
-
 # %% Show head
 print(data.shape)
 data.head()
